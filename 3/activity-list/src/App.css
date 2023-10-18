@@ -1,0 +1,44 @@
+html, 
+body, 
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.activity-container {
+  border: 2px solid #ddd;
+  height: 85vh;
+  max-width: 80%;
+  margin: 10px auto;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: #f4e0df;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.btn {
+  padding: 5px 8px;
+  border-radius: 6px;
+  background-color: #f3817b;
+  cursor: pointer;
+}
+
+.expand {
+  display: flex;
+}
+
+.btn-expand {
+  margin-left: 10px;
+}
+
+.item-container {
+  margin-bottom: 5px;
+}
